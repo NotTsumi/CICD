@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     registry   = "docker.io"
-    reponame   = "kingdodo20"     // Docker Hub username (your repo namespace)
+    reponame   = "kingdodo20"     
     appname    = "myapp"
     imageTag   = "v${BUILD_NUMBER}"
   }
