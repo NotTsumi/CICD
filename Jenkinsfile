@@ -2,11 +2,11 @@ pipeline {
   agent any
 
   environment {
-    registry  = "docker.io"
-    dockerUser = "nottusmi"    // replace with your Docker Hub username (lowercase)
-    appname   = "myapp"
-    imageTag  = "v${BUILD_NUMBER}"
-  }
+  registry   = "docker.io"
+  reponame   = "kingdodo20"
+  appname    = "myapp"
+  imageTag   = "v${BUILD_NUMBER}"
+}
 
   stages {
     stage('Checkout') {
