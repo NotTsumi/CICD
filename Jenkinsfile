@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     registry   = "docker.io"
-    reponame   = "CICD"
+    reponame   = "cicd"
     appname    = "myapp"
     imageTag   = "v${BUILD_NUMBER}"
   }
